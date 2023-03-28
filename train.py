@@ -18,6 +18,7 @@ import numpy as np
 # from model.res_net import ResNet50
 from model.alexnet import AlexNet
 from model.vgg import VGG_19
+from model.su_net import SU_Net
 # writer = SummaryWriter('runs/fashion_mnist_experiment_1')
 from model.bottleneckTrans import ResNet50
 from vit_pytorch import ViT
@@ -147,6 +148,7 @@ if __name__ == '__main__':
     # n_classes is the number of probabilities you want to get per pixel
     # net = UNet(n_channels=3, n_classes=1, bilinear=True)
     # net = ResNet50()
+    # net = SU_Net()
     net = ViT(
         image_size=256,
         patch_size=32,
