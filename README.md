@@ -1,5 +1,5 @@
 # SU-Net: Pose estimation network for non-cooperative spacecraft on-orbit
-[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2302.10602)
+
 <hr>
 
  ## Citations
@@ -8,10 +8,14 @@ The following is a BibTeX reference:
 
 ```
 @article{gao2023net,
-  title={SU-Net: Pose estimation network for non-cooperative spacecraft on-orbit},
-  author={Gao, Hu and Li, Zhihui and Dang, Depeng and Wang, Ning and Yang, Jingfan},
-  journal={arXiv preprint arXiv:2302.10602},
-  year={2023}
+  title={SU-Net: pose estimation network for non-cooperative spacecraft on-orbit},
+  author={Gao, Hu and Li, Zhihui and Wang, Ning and Yang, Jingfan and Dang, Depeng},
+  journal={Scientific Reports},
+  volume={13},
+  number={1},
+  pages={11780},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
 }
 
 
